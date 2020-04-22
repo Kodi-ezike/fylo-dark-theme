@@ -1,0 +1,526 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16;
+    
+}
+h1{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+h2{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    color: white; 
+    font-size: 16px;
+}
+.secure{
+    font-size: 35px;
+}
+.productive{
+    font-size: 40px;
+}
+.fylo{
+    color: white;
+    font-size: 18px;
+    margin: 0 6rem ;
+    margin-top: auto;
+}
+
+.email{
+    padding: 0.8rem;
+    width: 20rem;
+    border: 1px solid  hsl(243, 68%, 28%) ;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+input::placeholder{
+    color: hsl(0, 0%, 75%);
+    font-size: 12px;
+}
+#start{
+    padding: 1rem 6rem;
+    background-color:hsl(198, 60%, 50%);
+    color: hsl(240, 75%, 98%);
+    border: 1px  hsl(224, 93%, 58%) ;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+}
+#get{
+    padding: 0.8rem 2rem;
+    background-color: hsl(198, 60%, 50%);
+    color: hsl(240, 75%, 98%);
+    border: 1px  hsl(224, 93%, 58%) ;
+    font-weight: 700;
+    /* margin: auto; */
+    /* margin-left: 1rem; */
+    border-radius: 30px;
+}
+.product{
+   font-size: 14px;
+   color: white;
+
+}
+.works a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.work{
+    color: hsl(170, 59%, 26%);
+    border-bottom: 1px solid hsl(170, 70%, 33%) ;
+
+}
+.arrow{
+    width: 12px;
+    height: 12px;
+}
+.quotes{
+    width: 40px;
+    height: 40px;
+    margin-right: -2rem;
+    
+    margin-bottom: -3rem;
+}
+.testimonial{
+    display: flex;
+}
+.avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-top: 0.6rem;
+    margin-right: 5px;
+}
+.inner{
+    font-size: 11px;
+    color: white;
+    line-height: 1.5;
+}
+.name{
+    font-size: 9px;
+    color:white;
+    
+}
+.early{
+    text-align: center;
+    font-size: 25px;
+}
+span{
+    font-size: 8px;
+    color: white;
+}
+
+.access{
+    color: hsl(240, 75%, 98%);
+    text-align: center;
+    font-size: 12px;
+    margin: 2rem 9rem;
+}
+.wrapper{
+    padding: 4rem;
+    background-color: hsl(217, 28%, 15%);
+}
+.header{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.heading{
+    display: flex;
+   
+}
+.head a{
+    margin-left: 3rem;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.logo{
+    background-image: url(logo.svg);
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+.right{
+    width: 60%;
+    margin: auto;
+}
+.left{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.start{
+    display: flex;
+}
+.wrapper2{
+    background-color:hsl(218, 28%, 13%);
+    padding: 2rem;
+    margin-top: -1rem;
+}
+.grid{
+    font-size: 12px;
+    color: white;
+}
+.grid-wrapper{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.grid-container{
+    display:grid;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+    row-gap: 3rem;
+    width:100%;
+    margin: auto;
+    text-align: center;
+
+}
+.grid-item{
+    text-align: center;
+    height: auto;
+    margin: auto;
+    width: 70%;
+}
+.container3{
+    background-color: hsl(218, 28%, 13%);
+}
+.container4{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color:hsl(218, 28%, 13%) ;
+    padding: 6rem 4rem;
+}
+.container1{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    top: 15rem;
+    padding-bottom: 20rem;
+    margin-top: -18rem;
+}
+.container3{
+    width: 100%;
+}
+.container{
+    z-index: 2;
+   
+    width: auto;
+}
+.curve{
+    margin-top: -20rem;
+    height: 300px;
+    width:100%;
+    
+}
+.curvy{
+    display: none;
+}
+
+
+.small{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.inner-container{
+    height: auto;
+    width: 270px;
+    box-sizing: border-box;
+    background-color:hsl(219, 30%, 18%);
+    padding:  1rem 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+
+.left2{
+    width: 40%;
+    margin: auto;
+    padding-top: 4rem;
+    
+}
+.right2{
+    width: 50%;
+    
+}
+.left3{
+    width: 100%;
+    margin: auto;
+}
+.started{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.container5{
+    background-color:hsl(218, 28%, 13%) ;
+    display: flex;
+    justify-content: center;
+}
+.container6{
+    height: auto;
+    width: 60%;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(217, 28%, 15%);
+    padding: 2rem;
+    top: 6rem;
+}
+.logos{
+    padding: 10rem 0  0 2rem;
+}
+.footer-logo{
+    margin-left: 2rem;
+}
+.lorem{
+    width: 30%;
+    display: flex;
+    color: white;
+}
+.contact{
+    width: 30%;
+    margin-left: 2rem;
+}
+.icon{
+    margin-right: 10px;
+}
+.icons{
+    color: white;
+    line-height: 1.5 ;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.item{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    
+    
+}
+.item a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.socials{
+    width: 20%;
+    display: flex;
+}
+.social-items{
+    margin-right: 10px;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(0, 0%, 75%);
+    padding: 1.5rem;
+    
+    
+}
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 5rem;
+}
+.attribution a { 
+    color: whitesmoke;
+    text-decoration: none;
+ }
+
+@media screen and (max-width:770px){
+.wrapper{
+        padding: 2rem 1rem;
+}  
+h1, h2{
+    text-align: center;
+} 
+h2{
+    font-size: 20px;
+}
+.head a{
+    margin-left: 1rem;
+}
+.logo{
+        height: 100px;
+        width: 80px;
+}
+.curve{
+    margin-top: -15rem;
+    height: auto;
+    width:100%;
+}
+.container1{
+    padding-bottom: 25rem;
+    top: 42rem;
+    margin-top: -42rem;
+}
+.wrapper2{
+    margin-top: -2rem;
+}
+.grid{
+    font-size: 14px;
+}
+.grid-container{
+    grid-template-columns: 1fr;
+    padding-top: 20rem;
+}
+.grid-item{
+    width: 100%;
+    margin-top: 3rem;
+}
+ .container4, .container6{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.left, .right, .left2, .right2, .left3, .right3{
+    width: 100%;
+    margin: auto;
+}
+.right2{
+    padding: 3rem 0;
+}
+
+.container4{
+    
+    padding: 4rem 2rem;
+}
+.container6{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+    padding: 1.5rem;
+    width: 70%;
+    top: 8rem;
+}
+.quotes{
+    width: 20px;
+    height: 20px;
+    margin-right: auto;
+    
+
+}
+.inner-container{
+    margin: auto;
+    margin-top: 2rem;
+    width: auto;
+}
+
+.works a{font-size: 13px;}
+.fylo{
+    font-size: 14px;
+    margin: 1rem 1rem;
+    text-align: center;
+}
+.secure{
+font-size: 18px
+}
+.productive{
+    font-size: 16px;
+}
+.product{
+    color: white;  
+    margin-right: auto;
+}
+.access{
+    font-size: 14px;
+    text-align: center;
+    
+    margin: 2rem 0;
+}
+.email{
+    width: 15.5rem;
+    margin-right: auto;
+    margin: auto;
+}
+.started{
+    display: flex;
+    flex-wrap: wrap;
+}
+.start, .started{
+    text-align: center;
+    width: auto;
+}
+.left{padding: 2rem 0;}
+
+#get{
+    width: 16.5rem;
+    margin-top: 1rem;
+}
+.logos{
+    padding: 10rem 0  0 1rem;
+
+}
+.footer-logo{
+    margin-left: auto;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+}
+.lorem{
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+.contact{
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+}
+.item{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+.contact, .item,{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    margin: auto ;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: auto;
+}
+
+
+}
